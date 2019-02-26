@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void printOutUsernames() {
-        List<User> usernames = new ArrayList<>();
+        List<User> allTheNames = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
-            Log.i("MainActivity", usernames.get(i).name);
+            Log.i("MainActivity", allTheNames.get(i).name);
         }
     }
 
